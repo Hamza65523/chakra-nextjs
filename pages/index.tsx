@@ -16,16 +16,16 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="">
-        <div className="h-[50vh] bg-[#6b46c1] text-white ">
-          <h1>Simple Pricing for your business</h1>
-          <h4>Plans that are carefully crafted to suit your business.</h4>
+        <div className="h-[50vh] pt-20 bg-[#6b46c1] text-white ">
+          <h1 className="font-bold text-4xl text-center">Simple Pricing for your business</h1>
+          <h4 className="text-xl text-center pt-4">Plans that are carefully crafted to suit your business.</h4>
         </div>
-        <div className="h-[50vh] w-[800px] mx-auto my-0">
-          <div className="flex  shadow-lg rounded-2xl">
-            <div className="bg-[#f0eafb] w-56 rounded-2xl space-y-1 flex justify-center items-center flex-col">
+        <div className="absolute left-48 bottom-32 h-[50vh] w-[800px] mx-auto my-0">
+          <div className=" flex bg-white shadow-lg rounded-2xl">
+            <div className="bg-[#f0eafb] w-64 rounded-2xl space-y-1 flex justify-center items-center flex-col">
               <h3 className="text-xl font-bold">Premium PRO</h3>
               <span className="text-4xl font-bold">$329</span>
-              <h6 className="text-lg ">billed just once</h6>
+              <h6 className="pb-2 text-sm">billed just once</h6>
               <button className="font-[500] text-lg bg-[#6b46c1] text-white px-12 py-2 rounded-lg ">Get Started</button>
             </div>
             <div className="px-8 py-8">
@@ -50,16 +50,16 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-         <div className="flex mt-4">
-         <span className="flex gap-2  font-bold">
+         <div className="flex gap-10 mt-8 px-8">
+         <span className="flex gap-4 font-bold">
             <FontAwesomeIcon icon={faShieldAlt} className="w-10 text-[#6b46c1]" />
             30 dayes money back Gurantee
           </span>
-          <span className="flex gap-2  font-bold">
+          <span className="flex gap-4 font-bold">
             <FontAwesomeIcon icon={faListCheck} className="w-10 text-[#6b46c1]" /> No setup
             fees 100% hassle-free
           </span>
-          <span className="flex gap-2  font-bold">
+          <span className="flex gap-4 font-bold">
             <FontAwesomeIcon icon={faCompass} className="w-10 text-[#6b46c1]" /> No monthly
             subscription Pay once and for all
           </span>
