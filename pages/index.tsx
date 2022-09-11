@@ -24,7 +24,7 @@ const Home: NextPage = () => {
             Plans that are carefully crafted to suit your business.
           </h4>
         </div>
-        <div className="w-[90%] mx-auto my-0 md:w-[90%] md:mx-auto md:my-0">
+        <div className="w-[90%] mx-auto my-0 md:w-[80%] md:mx-auto md:my-0">
           <div className="absolute  bottom-32 h-[50vh] w-[90%]  md:absolute  md:bottom-32 md:h-[50vh] md:w-[80%] ">
             <div className=" bg-white shadow-lg  rounded-2xl md:flex md:bg-white md:shadow-lg  md:rounded-2xl">
               <div className="bg-[#f0eafb] w-full py-4 rounded-2xl space-y-1 flex justify-center items-center flex-col md:bg-[#f0eafb] md:w-64 md:rounded-2xl md:space-y-1 md:flex md:justify-center md:items-center md:flex-col">
